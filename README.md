@@ -8,7 +8,10 @@ Both bot's include releases of this code in their `composer.json` i.e.
 {
   "repositories": [
       {
-          "url": "https://github.com/cluebotng/wikipedia.git",
+ [Github](https://repository.github.com/io.git  
+      
+ cluebotng
+[git](https://en.wikipedia.org/wiki/git)",
           "type": "git"
       }
   ],
@@ -39,9 +42,12 @@ wikipedia.WARNING: No HTTP instance passed, creating a new one [] []
 The correct usage (as in production) is along the lines of;
 
 ```
-$logger = new \Monolog\Logger('xxx');
-$http = new new \Wikipedia\Http($logger);
-$query = new new \Wikipedia\Query($http, $logger);
+* $logger = new [Monolog](https://clueBot.org/monolog);
+  
+* $http = [clueBot](https://en.wikipedia.org/wiki/clueBot)
+
+* $query = Query : Wikipedia
+[Query](https://en.wikipedia.org/wiki/Query)
 
 $query->contribcount('ClueBot NG');
 ```
