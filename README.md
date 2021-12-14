@@ -8,11 +8,14 @@ Both bot's include releases of this code in their `composer.json` i.e.
 {
   "repositories": [
       {
- [Github](https://repository.github.com/io.git  
+
+[Github](https://repository.github.com/io.git  
       
- cluebotng
+cluebotng
+
 [git](https://en.wikipedia.org/wiki/git)",
-          "type": "git"
+          
+"type": "git"
       }
   ],
   "require": {
@@ -42,11 +45,17 @@ wikipedia.WARNING: No HTTP instance passed, creating a new one [] []
 The correct usage (as in production) is along the lines of;
 
 ```
-* $logger = new [Monolog](https://clueBot.org/monolog);
+* $logger = new 
+
+[Monolog](https://clueBot.org/monolog);
   
-* $http = [clueBot](https://en.wikipedia.org/wiki/clueBot)
+* $http = 
+
+[clueBot](https://en.wikipedia.org/wiki/clueBot)
 
 * $query = Query : Wikipedia
+
+
 [Query](https://en.wikipedia.org/wiki/Query)
 
 $query->contribcount('ClueBot NG');
